@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Hive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Event <span>Hive</span></div>
+        <nav class="nav">
+            <a href="#">Login</a>
+            <button class="signup-button">Sign up</button>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 class="hero-text">MADE FOR THOSE WHO DO</h1>
+        <div class="search-container">
+            <select>
+                <label for="op1">looking for </label> <br>
+                <option id="op1">Choose event type</option>
+            </select>
+            <select>
+                <label for="op2">location </label> <br>
+                <option id="op2">Choose location</option>
+            </select>
+            <select>
+                <label for="op3">When </label> <br>
+                <option id="op3">Choose date and time</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+    </section>
+    <section class="events">
+        <div class="eventhead">
+            <h2>Upcoming Events</h2>
+            <select name="drop" id="r">
+                <option value="week">Weekday</option>
+            </select>
+            <select name="drop" >
+                <option value="etype">Event type</option>
+            </select>
+            <select name="drop" >
+                <option value="ecate">Event category</option>
+            </select>
+        </div>
+        <div class="event-grid">
+           <div class="row1">
+            <div class="event-card">
+                <img height="150" width="100%" src="event.jpg" alt="Event">
+                <div class="event-details">
+                    <div class="event-price">FREE</div>
+                    <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                    <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                    <p>Online Event - Attend anywhere</p>
+                </div>
+            </div>
+            <div class="event-card">
+                <img height="150" width="100%" src="event2.jpg" alt="Event">
+                <div class="event-details">
+                    <div class="event-price">FREE</div>
+                    <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                    <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                    <p>Online Event - Attend anywhere</p>
+                </div>
+            </div>
+            <div class="event-card">
+                <img height="150" width="100%" src="event2.jpg" alt="Event">
+                <div class="event-details">
+                    <div class="event-price">FREE</div>
+                    <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                    <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                    <p>Online Event - Attend anywhere</p>
+                </div>
+            </div>
+            <div class="event-card">
+                <img height="150" width="100%" src="event3.jpg" alt="Event">
+                <div class="event-details">
+                    <div class="event-price">FREE</div>
+                    <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                    <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                    <p>Online Event - Attend anywhere</p>
+                </div>
+            </div>
+           </div>
+            <div class="row2">
+                <div class="event-card">
+                    <img height="150" width="100%" src="event2.jpg" alt="Event">
+                    <div class="event-details">
+                        <div class="event-price">FREE</div>
+                        <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                        <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                        <p>Online Event - Attend anywhere</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img height="150" width="100%" src="event.jpg" alt="Event">
+                    <div class="event-details">
+                        <div class="event-price">FREE</div>
+                        <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                        <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                        <p>Online Event - Attend anywhere</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img height="150" width="100%" src="event2.jpg" alt="Event">
+                    <div class="event-details">
+                        <div class="event-price">FREE</div>
+                        <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                        <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                        <p>Online Event - Attend anywhere</p>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <img height="150" width="100%" src="event3.jpg" alt="Event">
+                    <div class="event-details">
+                        <div class="event-price">FREE</div>
+                        <h3>BestSeller Book Bootcamp - Write, Market & Publish Your Book - Lucknow</h3>
+                        <p id="color-purple">Saturday, March 16, 3:00PM</p>
+                        <p>Online Event - Attend anywhere</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="load-more">Load more...</button>
+    </section>
+    <section class="create-event">
+        
+        <div class="content">
+            <h2>Make your own Event</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Create Events</button>
+        </div>
+        <img src="make-your-own.png" alt="Illustration" height="240px">
+        
+    </section>
+    <section class="brand">
+        <h3><b>Join these brands</b></h3>
+        <p>We've had the pleasure of working with industry-defining brands. <br>These are just some of them.</p>
+        <div>
+            <img src="zoom.png" alt="" height="50px">
+            <img src="micro.png" alt="" height="60px"> 
+            <img src="medium.png" alt="" height="60px">
+            
+            <img src="google.png" alt="" height="60px">
+            <img src="yt.png" alt="" height="60px">
+            <img src="stripe.jpg" alt="" height="60px"> <br>
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <img src="micro.png" alt="" height="60px"> 
+            <img src="uber.png" alt="" height="40px">
+            
+            <img src="zoom.png" alt="" height="50px">
+            <img src="spotify.png" alt="" height="40px">
+            <img src="medium.png" alt="" height="60px">
+            
+        </div>
+    </section>
+    
+    <section class="events">
+        <div class="ri">
+            <div class="eventhead">
+                <h2>Trending Colleges</h2>
+                
+            </div>
+            <div class="event-grid">
+               <div class="row1">
+                <div class="even-card">
+                    <img height="150" width="100%" src="oxford.jpg" alt="Event">
+                    
+                        
+                            <h3>Standford University</h3>
+                            <p >Tokyo Hamilton, 456316 . &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="more">...</button></p>
+                            
+                       
+                </div>
+                <div class="even-card">
+                    <img height="150" width="100%" src="stanford uni.png" alt="Event">
+                    
+                        
+                            <h3>Standford University</h3>
+                            <p >Tokyo Hamilton, 456316 . &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="more">...</button></p>
+                            
+                       
+                </div>
+                
+                <div class="even-card">
+                    <img height="150" width="100%" src="yale.jpg" alt="Event">
+                    
+                        
+                            <h3>Standford University</h3>
+                            <p >Tokyo Hamilton, 456316 . &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="more">...</button></p>
+                            
+                       
+                </div>
+               </div>
+                <div class="row2">
+                    <div class="even-card">
+                        <img height="150" width="100%"src="yale.jpg"alt="Event">
+                        
+                            
+                                <h3>Standford University</h3>
+                                <p >Tokyo Hamilton, 456316 . &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="more">...</button></p>
+                                
+                           
+                    </div>
+                    <div class="even-card">
+                        <img height="150" width="100%" src="stanford uni.png" alt="Event">
+                        
+                            
+                                <h3>Standford University</h3>
+                                <p >Tokyo Hamilton, 456316 . &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="more">...</button></p>
+                                
+                           
+                    </div>
+                    
+                    <div class="even-card">
+                        <img height="150" width="100%" src="yale.jpg" alt="Event">
+                        
+                            
+                                <h3>Standford University</h3>
+                                <p >Tokyo Hamilton, 456316 . &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="more">...</button></p>
+                                
+                           
+                    </div>
+                </div>
+            </div>
+            <button class="load-more">Load more...</button>
+        </div>
+    </section>
+
+   
+    
+    <section class="blogs">
+        <div class="ri">
+            <div class="eventhead">
+                <h2>Our Blogs</h2>
+            </div>
+            <div class="event-grid">
+               <div class="row1">
+                <div class="even-card">
+                    <img height="150" width="100%" src="event.jpg" alt="Event">
+                            <h4>BestSelller Book Bootcamp <br> write, Market &Publish <br> Your Book - Lucknow</h4>
+                            <p style="color: rgb(107, 11, 142);">Saturdat, March 18, 9.30PM</p>
+                            <p>ONLINE EVENT - Attend anywhere</p>    <br>
+                </div>
+                <div class="even-card">
+                    <img height="150" width="100%" src="event2.jpg" alt="Event">
+                            <h4>BestSelller Book Bootcamp <br> write, Market &Publish <br> Your Book - Lucknow</h4>
+                            <p style="color: rgb(107, 11, 142);">Saturdat, March 18, 9.30PM</p>
+                            <p>ONLINE EVENT - Attend anywhere</p>    <br>
+                </div>
+                
+                <div class="even-card">
+                    <img height="150" width="100%" src="event.jpg" alt="Event">
+                            <h4>BestSelller Book Bootcamp <br> write, Market &Publish <br> Your Book - Lucknow</h4>
+                            <p style="color: rgb(107, 11, 142);">Saturdat, March 18, 9.30PM</p>
+                            <p>ONLINE EVENT - Attend anywhere</p>  <br>  
+                </div>
+               </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2><span style="color: white;"> Event</span><span style="color: rgb(146, 48, 207);">  Hive</span></h2>
+            <form class="subscription-form">
+                <input type="email" placeholder="Enter your mail">
+                <button>Subscribe</button>
+            </form>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Get in touch</a>
+                <a href="#">FAQs</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="lang">
+                <button>English</button>
+                <button>French</button>
+                <button>Hindi</button>
+            </div>
+            <div class="social-media">
+                <a href="#">🔗</a>
+                <a href="#">🔗</a>
+                <a href="#">🔗</a>
+            </div>
+            <p>Non Copyrighted © 2023 Upload by EventHive</p>
+        </div>
+    </footer>
+
+</body>
+</html>
